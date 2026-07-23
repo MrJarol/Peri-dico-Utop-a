@@ -1,0 +1,558 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#eef3f8;
+}
+
+/* ================= ENCABEZADO ================= */
+
+.hero{
+    height:500px;
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(img/Atardecer.jpeg);
+    background-size:cover;
+    background-position:center;
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 8%;
+}
+
+nav h2{
+    font-size:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    background:#2b8a3e;
+    padding:12px 22px;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    background:white;
+    color:#2b8a3e;
+}
+
+/* ================= HERO ================= */
+
+.hero{
+    height:500px;
+    background:
+    linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url(img/Atardecer.jpeg);
+    background-size:cover;
+    background-position:center;
+    color:white;
+}
+
+.menu{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 8%;
+}
+
+.menu h2{
+    font-size:30px;
+}
+
+.menu-links{
+    display:flex;
+    gap:18px;
+}
+
+.menu-links a{
+    text-decoration:none;
+    color:white;
+    background:#2b8a3e;
+    padding:12px 22px;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.menu-links a:hover{
+    background:white;
+    color:#2b8a3e;
+}
+
+.hero-texto{
+    height:380px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px;
+}
+
+.hero-texto h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero-texto p{
+    max-width:800px;
+    line-height:32px;
+    font-size:18px;
+}
+
+/* ================= INFORMACIÓN ================= */
+
+.informacion{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    padding:70px 10%;
+    background:white;
+}
+
+.informacion img{
+    width:450px;
+    border-radius:20px;
+}
+
+.texto{
+    flex:1;
+}
+
+.texto h2{
+    color:#2b8a3e;
+    margin-bottom:20px;
+    font-size:35px;
+}
+
+.texto p{
+    text-align:justify;
+    line-height:30px;
+}
+
+/* ================= CONTENIDO ================= */
+
+.informacion{
+    display:flex;
+    gap:40px;
+    align-items:center;
+    padding:70px 10%;
+    background:white;
+}
+
+.informacion img{
+    width:450px;
+    border-radius:20px;
+}
+
+.texto{
+    flex:1;
+}
+
+.texto h2{
+    color:#2b8a3e;
+    margin-bottom:20px;
+}
+
+.texto p{
+    line-height:30px;
+    text-align:justify;
+}
+
+.video{
+    background:white;
+    text-align:center;
+    padding:60px 10%;
+}
+
+.video video{
+    width:80%;
+    border-radius:20px;
+}
+
+.video p{
+    margin-top:20px;
+}
+
+.titulo{
+    text-align:center;
+    padding:50px;
+    color:#2b8a3e;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+    padding:0 10% 60px;
+}
+
+.card{
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card h3{
+    padding:20px;
+    color:#2b8a3e;
+}
+
+.card p{
+    padding:0 20px;
+    line-height:28px;
+}
+
+/* ================= ESTADÍSTICAS ================= */
+
+.estadisticas{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    background:#2b8a3e;
+    color:white;
+    text-align:center;
+    padding:50px;
+}
+
+.estadisticas h2{
+    font-size:45px;
+}
+
+.estadisticas p{
+    margin-top:10px;
+}
+
+/* ================= ACTIVIDAD ================= */
+
+.video{
+    background:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.video h2{
+    color:#2b8a3e;
+    margin-bottom:30px;
+    font-size:40px;
+}
+
+.imagen-destacada{
+    display:block;
+    width:70%;
+    max-width:800px;
+    height:450px;
+    object-fit:cover;
+    margin:auto;
+    border-radius:25px;
+    box-shadow:0 10px 20px rgba(0,0,0,.25);
+}
+
+.video p{
+    max-width:900px;
+    margin:30px auto;
+    line-height:30px;
+    text-align:justify;
+}
+
+/* ================= CARDS ================= */
+
+.titulo{
+    text-align:center;
+    padding:50px;
+    color:#2b8a3e;
+    font-size:35px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+    padding:0 10% 60px;
+}
+
+.card{
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card h3{
+    color:#2b8a3e;
+    padding:20px;
+}
+
+.card p{
+    padding:0 20px 20px;
+    line-height:28px;
+}
+
+/*================== REACCIONES ==================*/
+
+.reacciones{
+    margin:20px;
+    background:#fff;
+    border-radius:12px;
+    padding:15px;
+    border:1px solid #ddd;
+}
+
+/* Botones superiores */
+
+.acciones{
+    display:flex;
+    justify-content:space-around;
+    border-bottom:1px solid #ddd;
+    padding-bottom:10px;
+    margin-bottom:15px;
+}
+
+.acciones button{
+    background:none;
+    border:none;
+    font-size:15px;
+    font-weight:600;
+    color:#555;
+    cursor:pointer;
+    padding:10px 20px;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.acciones button:hover{
+    background:#f0f2f5;
+}
+
+.btn-like.activo{
+    color:#1877f2;
+}
+
+/* Caja comentario */
+
+.caja-comentario{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.avatar{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}
+
+.texto-comentario{
+    flex:1;
+    border:none;
+    background:#f0f2f5;
+    border-radius:25px;
+    padding:12px 18px;
+    font-size:14px;
+    outline:none;
+}
+
+.enviar{
+    width:40px;
+    height:40px;
+    border:none;
+    border-radius:50%;
+    background:#1877f2;
+    color:white;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.enviar:hover{
+    background:#0d65d9;
+}
+
+/* Comentarios */
+
+.lista-comentarios{
+    margin-top:20px;
+}
+
+.comentario{
+    display:flex;
+    gap:10px;
+    margin-bottom:15px;
+}
+
+.comentario img{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+}
+
+.comentario .contenido{
+    background:#f0f2f5;
+    padding:10px 15px;
+    border-radius:18px;
+    width:100%;
+}
+
+.comentario strong{
+    color:#1877f2;
+    font-size:14px;
+}
+
+.comentario p{
+    margin-top:5px;
+    font-size:14px;
+}
+
+/* ================= FRASE ================= */
+
+.frase{
+    background:#2b8a3e;
+    color:white;
+    text-align:center;
+    padding:50px;
+    font-style:italic;
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+    background:#1d1d1d;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+/* Noticia con audio */
+.noticia-audio{
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.noticia-audio h2{
+    color: #0d6efd;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.noticia-audio p{
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.noticia-audio audio{
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:900px){
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .informacion{
+        flex-direction:column;
+    }
+
+    .informacion img{
+        width:100%;
+    }
+
+    .video video{
+        width:100%;
+    }
+
+    .hero-texto h1{
+        font-size:38px;
+    }
+
+    .acciones{
+        flex-direction:column;
+        gap:10px;
+    }
+
+@media screen and (max-width:768px){
+
+    nav{
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+
+    .informacion{
+        flex-direction:column;
+        padding:40px 20px;
+    }
+
+    .informacion img{
+        width:100%;
+    }
+
+    .cards{
+        grid-template-columns:1fr;
+        padding:20px;
+    }
+
+    .hero-texto h1{
+        font-size:35px;
+    }
+
+    .hero-texto p{
+        font-size:16px;
+        line-height:28px;
+    }
+
+    .video video{
+        width:100%;
+    }
+
+    .acciones{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    .caja-comentario{
+        flex-direction:column;
+    }
+
+    .enviar{
+        width:100%;
+        border-radius:10px;
+    }
+}
+
+}
