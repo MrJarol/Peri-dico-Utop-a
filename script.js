@@ -328,4 +328,4 @@ document.querySelectorAll(".reacciones").forEach((reaccion, index) => {
 
     }
 
-});
+}); //
