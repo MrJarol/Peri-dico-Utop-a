@@ -1,6 +1,8 @@
 console.log("script cargado");
 import { db } from "./firebase.js";
 
+console.log("SCRIPT FUNCIONANDO");
+
 import {
   collection,
   addDoc,
