@@ -2,7 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebas
 import { getFirestore } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBu8AmOw3CdCp2huh2vtsfvgqmK3AQUYHM",
+  apiKey: "TU_API_KEY",
   authDomain: "periodico-utopia.firebaseapp.com",
   projectId: "periodico-utopia",
   storageBucket: "periodico-utopia.firebasestorage.app",
@@ -11,6 +11,7 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-const db = getFirestore(app); 
+
+const db = getFirestore(app);
 
 export { db };
