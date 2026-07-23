@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 console.log("script cargado");
 import { db } from "./firebase.js";
 
@@ -163,7 +162,6 @@ document.querySelectorAll(".reacciones").forEach((reaccion, index) => {
 
     }
 
-=======
 console.log("script cargado");
 import { db } from "./firebase.js";
 
@@ -328,5 +326,4 @@ document.querySelectorAll(".reacciones").forEach((reaccion, index) => {
 
     }
 
->>>>>>> a688dc27766ddea1cd42242b100221ae28c873c9
 });

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
 
 import { getFirestore } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
@@ -16,7 +15,6 @@ const app = initializeApp(firebaseConfig);
 
 const db = getFirestore(app);
 
-=======
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
 
 import { getFirestore } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
@@ -34,5 +32,4 @@ const app = initializeApp(firebaseConfig);
 
 const db = getFirestore(app);
 
->>>>>>> a688dc27766ddea1cd42242b100221ae28c873c9
 export { db };
